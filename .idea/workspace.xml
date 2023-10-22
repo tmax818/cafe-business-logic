@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d260b125-2719-4692-8f82-fbdb6eb9f0b8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/tylermaxwell/CafeUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/tylermaxwell/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/tylermaxwell/CafeUtilTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/tylermaxwell/TestCafe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/tylermaxwell/CafeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/tylermaxwell/CafeUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/tylermaxwell/CafeUtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/tylermaxwell/CafeUtilTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -69,7 +65,7 @@
       <recent name="co.tylermaxwell" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CafeUtilTest">
+  <component name="RunManager" selected="JUnit.CafeUtilTest.getOrderTotalTest">
     <configuration name="CafeUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cafe-business-logic" />
       <extension name="coverage">
@@ -85,6 +81,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CafeUtilTest.getOrderTotalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cafe-business-logic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.tylermaxwell.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.tylermaxwell" />
+      <option name="MAIN_CLASS_NAME" value="co.tylermaxwell.CafeUtilTest" />
+      <option name="METHOD_NAME" value="getOrderTotalTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CafeUtilTest.getStreakGoalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cafe-business-logic" />
       <extension name="coverage">
@@ -96,6 +108,22 @@
       <option name="PACKAGE_NAME" value="co.tylermaxwell" />
       <option name="MAIN_CLASS_NAME" value="co.tylermaxwell.CafeUtilTest" />
       <option name="METHOD_NAME" value="getStreakGoalTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CafeUtilTest.getStreakGoalTestWithParameter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cafe-business-logic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.tylermaxwell.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.tylermaxwell" />
+      <option name="MAIN_CLASS_NAME" value="co.tylermaxwell.CafeUtilTest" />
+      <option name="METHOD_NAME" value="getStreakGoalTestWithParameter" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -119,8 +147,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CafeUtilTest" />
+        <item itemvalue="JUnit.CafeUtilTest.getOrderTotalTest" />
+        <item itemvalue="JUnit.CafeUtilTest.getStreakGoalTestWithParameter" />
         <item itemvalue="JUnit.CafeUtilTest.getStreakGoalTest" />
+        <item itemvalue="JUnit.CafeUtilTest" />
         <item itemvalue="JUnit.CafeUtilTest.getStreakGoalTest" />
       </list>
     </recent_temporary>
@@ -136,6 +166,7 @@
       <workItem from="1698015462531" duration="1245000" />
       <workItem from="1698016716058" duration="101000" />
       <workItem from="1698016826119" duration="90000" />
+      <workItem from="1698017134131" duration="863000" />
     </task>
     <servers />
   </component>
